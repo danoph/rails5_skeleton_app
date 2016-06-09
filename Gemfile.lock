@@ -188,6 +188,8 @@ GEM
     shoulda-matchers (2.8.0)
       activesupport (>= 3.0.0)
     spring (1.7.1)
+    spring-commands-rspec (1.0.4)
+      spring (>= 0.9.1)
     spring-watcher-listen (2.0.0)
       listen (>= 2.7, < 4.0)
       spring (~> 1.2)
@@ -247,6 +249,7 @@ DEPENDENCIES
   semantic-ui-sass!
   shoulda-matchers
   spring
+  spring-commands-rspec
   spring-watcher-listen (~> 2.0.0)
   sqlite3
   therubyracer

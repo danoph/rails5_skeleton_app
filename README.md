@@ -1,5 +1,12 @@
 # README
 
+Pre-requisistes:
+MAC OSX:
+* brew update; brew install rbenv ruby-build direnv
+* add eval "$(direnv hook bash)" to ~/.bash_profile
+* cd into directory, direnv allow .
+* to run specs, run rspec spec (without bundle exec, will use spring preloader)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 

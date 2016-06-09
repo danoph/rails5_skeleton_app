@@ -24,6 +24,7 @@ group :test do
 end
 
 group :development do
+  gem 'spring-commands-rspec'
   gem 'capistrano', '~> 3.1', require: false
   gem 'capistrano-rails', require: false
   gem 'capistrano-rbenv', '~> 2.0', require: false
