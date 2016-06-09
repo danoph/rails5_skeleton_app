@@ -3,6 +3,7 @@
 Pre-requisistes:
 MAC OSX:
 * brew update; brew install rbenv ruby-build direnv
+* rbenv install 2.3.0
 * add eval "$(direnv hook bash)" to ~/.bash_profile
 * cd into directory, direnv allow .
 * to run specs, run rspec spec (without bundle exec, will use spring preloader)
