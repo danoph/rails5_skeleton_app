@@ -7,6 +7,8 @@ MAC OSX:
 * cd into directory, direnv allow .
 * to run specs, run rspec spec (without bundle exec, will use spring preloader)
 
+* when using spring, dont prefix commands like rails s or rspec with bundle exec. if direnv was setup correctly, you can just use rails or spec and it will use the binary inside the ./bin folder
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
