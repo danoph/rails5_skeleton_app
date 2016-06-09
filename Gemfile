@@ -8,7 +8,9 @@ gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'therubyracer', platforms: :ruby
+gem 'haml'
 gem 'jquery-rails'
+
 gem 'bcrypt', '~> 3.1.7'
 gem 'configatron'
 
